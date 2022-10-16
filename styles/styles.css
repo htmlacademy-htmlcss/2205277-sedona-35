@@ -23,6 +23,8 @@ body {
     background-color: #ffffff;
 }
 
+
+/* Главная */
 /* Navigation */
 
 .navigation-item,
@@ -47,11 +49,12 @@ body {
 
 /* Main */
 
-.main-index {
+.main-image {
     background-image: url("../images/index-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     margin-bottom: 100px;
+
 }
 
 .main-definition {
@@ -74,7 +77,10 @@ body {
 .main-welcom {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+
+
+
 }
 
 .advantages-title {
@@ -116,6 +122,7 @@ body {
 
 .search {
     text-align: center;
+
 }
 
 .search-title {
@@ -127,7 +134,6 @@ body {
 }
 
 .search-discription {
-
     font-size: 22px;
     font-weight: 400;
     line-height: 26px;
@@ -154,8 +160,8 @@ body {
     background-image: url("../images/search.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+    background-color: #000000;
 }
-
 
 .subscription-title {
     text-transform: uppercase;
